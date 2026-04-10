@@ -1,4 +1,4 @@
-# Mario Wumpus em Python/Pygame
+# O Mundo do Wumpus - Mario Bros Version
 
 <p align="center">
   <img src="mario_wumpus/mario_wumpus/assets/banner_2.png" alt="Banner" width="1000">
