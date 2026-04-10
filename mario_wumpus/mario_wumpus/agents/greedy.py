@@ -28,7 +28,7 @@ class GreedyAgent(BaseAgent):
 
     def act(self, percept: Percept, legal_actions: list[Action]) -> Action:
         if percept.glitter:
-            return Action.GRAB
+            return Action.RESCUE
 
         if percept.stink and percept.has_fireball and self.rng.random() < 0.45:
             return Action.SHOOT
